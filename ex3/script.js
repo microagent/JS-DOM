@@ -2,6 +2,7 @@
 
 var button = document.getElementById("myButton");
 
-button.addEventListener('click', function(){
-    
-})
+button.addEventListener("click", function() {
+  let box = document.getElementById("box");
+  box.style = "background-color: blue";
+});
